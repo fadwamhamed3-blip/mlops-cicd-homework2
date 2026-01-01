@@ -1,4 +1,4 @@
-#!/Users/mac/Desktop/mlops-cicd-homework2/.venv/bin/python3
+#!/Users/mac/Desktop/mlops-cicd-homework2/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
