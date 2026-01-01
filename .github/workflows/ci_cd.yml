@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: ["main"]
   workflow_dispatch:
+
+env:
+  PYTHONPATH: ${{ github.workspace }}
+
 jobs:
   build-test:
     runs-on: ubuntu-latest
