@@ -2,6 +2,8 @@ from fastapi.testclient import TestClient
 from app.main import app
 
 def test_component_predict_reads_user_from_file_and_predicts(tmp_path):
+
+    
     p = tmp_path / "users.txt"
     p.write_text("userA\nuserB\n", encoding="utf-8")
 
