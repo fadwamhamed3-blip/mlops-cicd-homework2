@@ -11,6 +11,3 @@ def hashed_feature(value: str, num_buckets: int = 1000) -> int:
     h = hashlib.sha256(value.encode("utf-8")).hexdigest()
     as_int = int(h, 16)
     return as_int % num_buckets
-
-
-

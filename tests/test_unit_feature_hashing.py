@@ -22,3 +22,4 @@ def test_hashed_feature_known_value_regression():
 def test_invalid_num_buckets():
     with pytest.raises(ValueError):
         hashed_feature("x", 0)
+        
